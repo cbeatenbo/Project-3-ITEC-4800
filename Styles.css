@@ -1,0 +1,18 @@
+body {
+  font-family: Lucida Sans;
+  background-image: radial-gradient(aliceblue, blue);
+}
+
+img {
+  max-width: 400px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.header,
+.footer {
+  grid-column: 1 / 7;
+}
